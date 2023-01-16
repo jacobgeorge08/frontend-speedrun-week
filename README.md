@@ -1,7 +1,8 @@
 # Week 3 Frontend Speedrun
 
 ## Stage 1 - HTML & CSS - less complex layouts
-- [ ] - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+
+- [x] - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 - [ ] - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 - [ ] - [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 - [ ] - [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
@@ -10,6 +11,7 @@
 - [ ] - [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 ## Stage 2 - HTML & CSS - more complex layouts
+
 - [ ] - [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 - [ ] - [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
 - [ ] - [Fylo data storage component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n)
@@ -19,6 +21,7 @@
 - [ ] - [Fylo landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
 
 ## Stage 3 - HTML, CSS & JavaScript with DOM Manipulation
+
 - [ ] - [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 - [ ] - [Base Apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 - [ ] - [Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
