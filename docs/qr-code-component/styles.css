@@ -1,0 +1,37 @@
+.attribution {
+  padding-bottom: 1.25rem;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 18.75rem;
+  margin: auto;
+  padding: 0.75rem 0.75rem 2.5rem 0.75rem;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3%;
+  text-align: center;
+}
+
+img {
+  border-radius: 3%;
+}
+
+span {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 1.563em;
+  margin: 0.625em 0;
+}
+p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 0.938em;
+  max-width: 17em;
+  margin: auto;
+}
