@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+    </style>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  80K
-  Followers
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
 
-  803K
-  Likes
+  <body>
+    <div class="card-container">
+      <div class="card-background">
+        <img src="./images/image-victor.jpg" alt="profile pic of victor" />
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="name-location">
+        <div>Victor Crest <span class="grey-deets">26</span></div>
+        <div class="grey-deets">London</div>
+      </div>
+      <div class="stats">
+        <div class="followers">
+          80K
+          <div class="grey-deets">Followers</div>
+        </div>
+        <div class="likes">
+          803K
+          <div class="grey-deets">Likes</div>
+        </div>
+        <div class="photos">
+          1.4K
+          <div class="grey-deets">Photos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/jacobgeorge08" target="_blank">Jacob</a>.
+    </div>
+  </body>
 </html>
