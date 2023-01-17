@@ -1,0 +1,115 @@
+body {
+  font-family: Outfit;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+main {
+  width: 200px;
+  margin: 50px auto;
+  padding: 16px 12px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 3%;
+}
+.nft {
+  position: relative;
+  background-image: url(./images/image-equilibrium.jpg);
+  background-size: contain;
+  height: 190px;
+  width: 190px;
+  margin: auto;
+  display: block;
+  border-radius: 3%;
+}
+.view {
+  visibility: hidden;
+}
+.nft:hover .view {
+  visibility: visible;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+}
+
+h1 {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+section {
+  margin-left: 5px;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+section .eth {
+  color: hsl(178, 100%, 50%);
+}
+section img {
+  width: 14%;
+}
+
+section > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.avatar img {
+  display: block;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.avatar {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding-top: 5px;
+  font-size: 11px;
+}
+
+.jules {
+  color: white;
+}
+
+.jules:hover,
+h1:hover,
+.jules:active,
+h1:active {
+  cursor: grab;
+  color: hsl(178, 100%, 50%);
+}
+
+.nft:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 247, 0.4);
+  cursor: grab;
+}
