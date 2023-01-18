@@ -10,16 +10,16 @@ body {
 }
 
 .card-container {
-  width: 370px;
+  width: 390px;
   background-color: white;
-  margin: 40px auto;
+  margin: 150px auto;
   border-radius: 10px;
   padding-bottom: 25px;
   box-shadow: 0 2px 20px -6px black;
 }
 
 .hero {
-  width: 370px;
+  width: 390px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
