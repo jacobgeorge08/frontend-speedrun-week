@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  background: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 98%);
+  background-repeat: no-repeat;
+  background-position: top -200px;
+}
+
+.card-container {
+  width: 370px;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  box-shadow: 0 2px 20px -6px black;
+}
+
+.hero {
+  width: 370px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+h1 {
+  margin: 15px 20px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 20px 10px 20px;
+  font-weight: 500;
+  color: grey;
+}
+
+section {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 30px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.plan {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+}
+.plan img {
+  width: 25%;
+  height: 25%;
+}
+
+.annual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 18;
+}
+
+.annual span + span {
+  color: grey;
+  font-size: 14px;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 110px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px -6px black;
+}
+
+.cancel {
+  display: block;
+  color: grey;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+button:hover,
+.change:hover {
+  opacity: 0.7;
+  cursor: grab;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: black;
+  cursor: grab;
+}
