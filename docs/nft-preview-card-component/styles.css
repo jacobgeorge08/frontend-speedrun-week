@@ -6,6 +6,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 main {
   width: 200px;
@@ -44,7 +49,7 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 
-p {
+h2 {
   margin-left: 5px;
   font-weight: 400;
   font-size: 11px;
