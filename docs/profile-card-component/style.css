@@ -6,6 +6,12 @@ body {
     url(./images/bg-pattern-top.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom -700px right -280px, left -250px top -700px;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-container {
