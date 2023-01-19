@@ -4,9 +4,15 @@ body {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
   background: url(./images/pattern-background-desktop.svg);
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   background-position: top -200px;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-container {
