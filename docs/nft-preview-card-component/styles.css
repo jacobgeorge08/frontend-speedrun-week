@@ -55,7 +55,7 @@ h2 {
   font-size: 11px;
 }
 
-section {
+.priced {
   margin-left: 5px;
   font-size: 11px;
   display: flex;
@@ -63,14 +63,15 @@ section {
   margin-top: 20px;
 }
 
-section .eth {
+.priced .eth {
   color: hsl(178, 100%, 50%);
 }
-section img {
+
+.priced img {
   width: 14%;
 }
 
-section > div {
+.priced > div {
   display: flex;
   align-items: center;
   gap: 4px;
