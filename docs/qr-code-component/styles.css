@@ -4,6 +4,11 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: Outfit;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 main {
