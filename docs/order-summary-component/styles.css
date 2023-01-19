@@ -43,7 +43,7 @@ p {
   color: grey;
 }
 
-section {
+.plan-container {
   background-color: hsl(225, 100%, 98%);
   display: flex;
   align-items: center;
